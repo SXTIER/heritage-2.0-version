@@ -86,7 +86,7 @@ npm run preview
 
 ## Acknowledgements
 
-This project was developed with assistance from **Codex** for coding and implementation, and **Claude** for design direction and layout exploration.
+This project was developed with assistance from **AI ,Codex** for coding and implementation, and **Claude** for design direction and layout exploration.
 
 ---
 
@@ -147,4 +147,4 @@ npm run preview
 
 ## Acknowledgements
 
-โปรเจกต์นี้พัฒนาโดยมี **Codex** ช่วยในด้านการเขียนโค้ดและ implementation และมี **Claude** ช่วยในด้าน design direction และการสำรวจ layout
+โปรเจกต์นี้พัฒนาโดยมี **AI ,Codex** ช่วยในด้านการเขียนโค้ดและ implementation และมี **Claude** ช่วยในด้าน design และตรวจสอบ layout ความผิดพลาด
