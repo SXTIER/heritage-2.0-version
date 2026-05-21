@@ -62,16 +62,16 @@
       image: '/images/collections/Ruby-and-Diamond-Bracelet.jpeg',
       imageAlt: 'Ruby and Diamond Bracelet',
       desc: ' A stunning Art Deco line bracelet featuring alternating old European cut diamonds and burma ruby, set in 18k gold with  detailing. The geometric precision and characteristic stepped design are hallmarks of the finest Parisian jewellery of the 1920s.',
-      specs: [['Period','Art Deco, c.1925'],['Origin','Paris, France'],['Metal','18k Gold'],['Stones','Old Cut Diamonds,Burmese Ruby'],['Length','18cm']]
+      specs: [['Period','Art Deco, 1920-1945'],['Origin','Paris, France'],['Metal','18k Gold'],['Stones','Old Cut Diamonds,Burmese Ruby'],['Length','18cm']]
     },
     // Card 3
     'edwardian-brooch': {
-      era: 'Edwardian · c.1905',
+      era: 'Edwardian · 1901-1975',
       name: 'Pearl Brooch',
       image: '/images/collections/Pearl-Brooch.jpg',
       imageAlt: 'Pearl Brooch',
       desc: 'An exquisitely lacy Edwardian brooch  crafted in gold with old cut diamonds and natural pearl . The intricate  knife-wire setting techniques display the extraordinary craftsmanship of the Edwardian period at its height.',
-      specs: [['Period','Edwardian, c.1905'],['Origin','England'],['Metal','Platinum & 18ct Gold'],['Stones','Old Cut Diamonds, Natural Pearls'],['Condition','Excellent']]
+      specs: [['Period','Edwardian, 1901-1975'],['Origin','England'],['Metal','18k Gold'],['Stones','Old Cut Diamonds, Natural Pearls'],['Condition','Excellent']]
     },
     // Card 4
     'belle-necklace': {

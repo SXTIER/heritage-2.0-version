@@ -537,7 +537,6 @@ nav.scrolled {
   overflow: hidden;
   background: var(--charcoal);
   cursor: none;
-  group: true;
 }
 .product-card:first-child {
   grid-row: span 2;
@@ -769,8 +768,6 @@ nav.scrolled {
   color: rgba(7, 7, 7, 0.7);
   text-align: center;
 }
-.about-content {
-}
 .about-quote {
   font-family: "Cormorant Garamond", serif;
   font-size: clamp(28px, 3vw, 42px);
@@ -928,8 +925,6 @@ nav.scrolled {
   grid-template-columns: 1fr 1fr;
   gap: 120px;
 }
-.inquiry-left {
-}
 .inquiry-subtitle {
   font-size: 13px;
   line-height: 2;
@@ -957,8 +952,6 @@ nav.scrolled {
   font-size: 12px;
   flex-shrink: 0;
 }
-.contact-info {
-}
 .contact-label {
   font-size: 9px;
   letter-spacing: 0.3em;
@@ -972,8 +965,6 @@ nav.scrolled {
   color: var(--cream);
 }
 
-.inquiry-form {
-}
 .form-group {
   margin-bottom: 24px;
 }
@@ -998,6 +989,7 @@ nav.scrolled {
   font-weight: 300;
   outline: none;
   transition: border-color 0.3s;
+  appearance: none;
   -webkit-appearance: none;
 }
 .form-input:focus,
