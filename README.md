@@ -1,39 +1,64 @@
-# Heritage FineArt Jewelry Landing Page
+<div align="center">
 
-## English
+# Heritage FineArt Jewelry
 
-This project is a luxury landing page website for **Heritage FineArt Jewelry**, created to present the company's antique and fine jewelry identity through an elegant, editorial-style web experience.
+### Luxury Antique Jewelry Landing Page
 
-The main goal of this website is to introduce Heritage FineArt Jewelry, showcase selected jewelry collections, highlight historical jewelry eras, and guide visitors toward private enquiries or appointments.
+An editorial-style landing page for **Heritage FineArt Jewelry**, designed to present antique and fine jewelry with a refined, premium visual direction.
 
-### Purpose
+![Heritage FineArt Jewelry Hero](public/images/Hero.jpeg)
 
-- Build a premium landing page for Heritage FineArt Jewelry.
-- Present the brand as a specialist in antique and fine jewelry.
-- Showcase collections, jewelry eras, private events, and enquiry flows.
-- Create a responsive website suitable for desktop and mobile visitors.
+![Vite](https://img.shields.io/badge/Vite-8.0-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Vanilla JS](https://img.shields.io/badge/Vanilla-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111)
+![Status](https://img.shields.io/badge/Status-Landing%20Page-c9a84c?style=flat-square)
 
-### Features
+</div>
 
-- Hero section with luxury visual direction.
-- Moving marquee for jewelry eras and provenance keywords.
-- Eras collection section for historical jewelry periods.
-- Product collection cards with modal details.
-- Provenance/about section with video.
-- Private event presentation section.
-- Contact and private enquiry form.
-- Responsive layout for multiple screen sizes.
+---
 
-### Tech Stack
+## Overview
 
-- Vanilla JS
-- Vite
+This project is a luxury landing page website for **Heritage FineArt Jewelry**.  
+It was created to communicate the company's antique and fine jewelry identity through an elegant web experience, with sections for brand storytelling, jewelry eras, product collections, private events, and client enquiries.
 
-### Acknowledgements
+The main purpose is to help Heritage FineArt Jewelry present its brand online and guide visitors toward private appointments or enquiries.
 
-This project was developed with assistance from AI for coding and implementation, and Claude for design direction and layout exploration.
+## Key Features
 
-### Getting Started
+- Premium hero section with luxury visual direction
+- Moving marquee for jewelry eras and provenance keywords
+- Historical eras collection section
+- Product collection cards with modal details
+- Provenance/about section with video presentation
+- Private event section
+- Contact and private enquiry form
+- Responsive layout for desktop and mobile
+
+## Tech Stack
+
+| Area | Technology |
+| --- | --- |
+| Frontend | HTML, CSS, JavaScript |
+| Build Tool | Vite |
+| Style | Custom CSS |
+| Assets | Local images and video |
+
+## Project Structure
+
+```text
+heritage-004-vanilla/
+├── index.html
+├── public/
+│   ├── images/
+│   └── videos/
+├── src/
+│   ├── main.js
+│   └── style.css
+├── package.json
+└── README.md
+```
+
+## Getting Started
 
 Install dependencies:
 
@@ -59,22 +84,22 @@ Preview the production build:
 npm run preview
 ```
 
+## Acknowledgements
+
+This project was developed with assistance from **Codex** for coding and implementation, and **Claude** for design direction and layout exploration.
+
 ---
 
-## ภาษาไทยนะจ๊ะ
+# ภาษาไทย
 
-โปรเจกต์นี้คือเว็บไซต์ Landing Page สำหรับบริษัท **Heritage FineArt Jewelry** ออกแบบขึ้นเพื่อถ่ายทอดภาพลักษณ์ของแบรนด์จิวเวลรี่แอนทีคและ Fine Jewelry ผ่านเว็บไซต์ที่ให้ความรู้สึกหรูหรา เรียบงาม และมีลักษณะ editorial
+## ภาพรวมโปรเจกต์
 
-จุดประสงค์หลักของเว็บไซต์นี้คือใช้แนะนำบริษัท Heritage FineArt Jewelry, นำเสนอคอลเลกชันเครื่องประดับ, เล่าเรื่องยุคสมัยของจิวเวลรี่ และนำผู้เข้าชมไปสู่การติดต่อสอบถามหรือนัดหมายแบบส่วนตัว
+โปรเจกต์นี้คือเว็บไซต์ **Landing Page สำหรับ Heritage FineArt Jewelry**  
+ออกแบบขึ้นเพื่อถ่ายทอดภาพลักษณ์ของบริษัทในฐานะแบรนด์จิวเวลรี่แอนทีคและ Fine Jewelry ผ่านเว็บไซต์ที่ให้ความรู้สึกหรูหรา เรียบงาม และมีลักษณะ editorial
 
-### วัตถุประสงค์
+จุดประสงค์หลักของเว็บไซต์นี้คือการแนะนำบริษัท Heritage FineArt Jewelry, นำเสนอคอลเลกชันเครื่องประดับ, เล่าเรื่องยุคสมัยของจิวเวลรี่ และนำผู้เข้าชมไปสู่การติดต่อสอบถามหรือนัดหมายแบบส่วนตัว
 
-- สร้าง Landing Page ภาพลักษณ์พรีเมียมสำหรับ Heritage FineArt Jewelry
-- นำเสนอแบรนด์ในฐานะผู้เชี่ยวชาญด้าน antique และ fine jewelry
-- แสดงคอลเลกชันสินค้า ยุคสมัยของจิวเวลรี่ งาน private event และช่องทาง enquiry
-- รองรับการแสดงผลทั้ง desktop และ mobile
-
-### ฟีเจอร์หลัก
+## ฟีเจอร์หลัก
 
 - Hero section สำหรับสร้าง first impression ของแบรนด์
 - Marquee ข้อความเกี่ยวกับ jewelry eras และ provenance
@@ -83,18 +108,18 @@ npm run preview
 - Section provenance/about พร้อมวิดีโอ
 - Section private event
 - ฟอร์มติดต่อและ private enquiry
-- Responsive layout สำหรับหลายขนาดหน้าจอ
+- Responsive layout รองรับทั้ง desktop และ mobile
 
-### เทคโนโลยีที่ใช้
+## เทคโนโลยีที่ใช้
 
-- Vanilla JS
-- Vite
+| ส่วน | เทคโนโลยี |
+| --- | --- |
+| Frontend | HTML, CSS, JavaScript |
+| Build Tool | Vite |
+| Style | Custom CSS |
+| Assets | รูปภาพและวิดีโอภายในโปรเจกต์ |
 
-### Acknowledgements
-
-โปรเจกต์นี้พัฒนาโดยมี AI ช่วยในด้านการเขียนโค้ดและ implementation และมี Claude ช่วยในด้าน design direction ต่างๆ
-
-### วิธีใช้งาน
+## วิธีใช้งาน
 
 ติดตั้ง dependencies:
 
@@ -119,3 +144,7 @@ Preview production build:
 ```bash
 npm run preview
 ```
+
+## Acknowledgements
+
+โปรเจกต์นี้พัฒนาโดยมี **Codex** ช่วยในด้านการเขียนโค้ดและ implementation และมี **Claude** ช่วยในด้าน design direction และการสำรวจ layout
