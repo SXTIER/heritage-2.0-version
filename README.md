@@ -46,7 +46,7 @@ The main purpose is to help Heritage FineArt Jewelry present its brand online an
 ## Project Structure
 
 ```text
-heritage-004-vanilla/
+Project-Name/
 ├── index.html
 ├── public/
 │   ├── images/
