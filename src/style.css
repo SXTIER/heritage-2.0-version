@@ -1142,6 +1142,7 @@ footer {
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(10px);
+  padding: 24px;
 }
 .modal-overlay.active {
   display: flex;
@@ -1150,6 +1151,8 @@ footer {
   background: var(--charcoal);
   max-width: 900px;
   width: 90%;
+  max-height: calc(100vh - 48px);
+  overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: 1px solid rgba(201, 168, 76, 0.15);
@@ -1444,9 +1447,12 @@ footer {
   }
   .modal {
     grid-template-columns: 1fr;
+    max-width: 640px;
+    overflow-y: auto;
   }
   .modal-image {
-    min-height: 280px;
+    min-height: 320px;
+    max-height: 360px;
   }
   .event-cards {
     grid-template-columns: 1fr;
@@ -1487,5 +1493,84 @@ footer {
   }
   .modal-actions {
     flex-direction: column;
+  }
+  .modal-overlay {
+    align-items: flex-start;
+    padding: 0;
+    overflow-y: auto;
+  }
+  .modal-overlay.active {
+    display: block;
+  }
+  .modal-overlay > div {
+    min-height: 100%;
+  }
+  .modal {
+    width: 100%;
+    min-height: 100vh;
+    max-height: none;
+    border: none;
+    overflow: visible;
+  }
+  .modal-close {
+    position: fixed;
+    top: 14px;
+    right: 14px;
+    z-index: 220;
+    background: rgba(7, 7, 7, 0.72);
+    backdrop-filter: blur(10px);
+  }
+  .modal-image {
+    min-height: 220px;
+    max-height: 260px;
+  }
+  .modal-image img {
+    min-height: 220px;
+  }
+  .modal-info {
+    padding: 44px 28px 36px;
+  }
+  .modal-era {
+    font-size: 8px;
+    letter-spacing: 0.35em;
+    line-height: 1.8;
+  }
+  .modal-name {
+    font-size: clamp(30px, 10vw, 40px);
+    line-height: 1.12;
+    margin-bottom: 24px;
+  }
+  .modal-divider {
+    margin-bottom: 28px;
+  }
+  .modal-desc {
+    font-size: 13px;
+    line-height: 2.05;
+    margin-bottom: 30px;
+  }
+  .modal-specs {
+    margin-bottom: 32px;
+  }
+  .spec-row {
+    display: grid;
+    grid-template-columns: 104px minmax(0, 1fr);
+    gap: 14px;
+    align-items: start;
+    padding: 13px 0;
+  }
+  .spec-key {
+    letter-spacing: 0.22em;
+  }
+  .spec-val {
+    min-width: 0;
+    line-height: 1.45;
+    text-align: right;
+    overflow-wrap: anywhere;
+  }
+  .modal-btn-primary,
+  .modal-btn-ghost {
+    width: 100%;
+    min-height: 48px;
+    line-height: 1.4;
   }
 }
