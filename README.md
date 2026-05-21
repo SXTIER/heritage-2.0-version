@@ -26,10 +26,12 @@ The main goal of this website is to introduce Heritage FineArt Jewelry, showcase
 
 ### Tech Stack
 
-- HTML
-- CSS
-- JavaScript
+- Vanilla JS
 - Vite
+
+### Acknowledgements
+
+This project was developed with assistance from AI for coding and implementation, and Claude for design direction and layout exploration.
 
 ### Getting Started
 
@@ -59,7 +61,7 @@ npm run preview
 
 ---
 
-## ภาษาไทย
+## ภาษาไทยนะจ๊ะ
 
 โปรเจกต์นี้คือเว็บไซต์ Landing Page สำหรับบริษัท **Heritage FineArt Jewelry** ออกแบบขึ้นเพื่อถ่ายทอดภาพลักษณ์ของแบรนด์จิวเวลรี่แอนทีคและ Fine Jewelry ผ่านเว็บไซต์ที่ให้ความรู้สึกหรูหรา เรียบงาม และมีลักษณะ editorial
 
@@ -85,10 +87,12 @@ npm run preview
 
 ### เทคโนโลยีที่ใช้
 
-- HTML
-- CSS
-- JavaScript
+- Vanilla JS
 - Vite
+
+### Acknowledgements
+
+โปรเจกต์นี้พัฒนาโดยมี AI ช่วยในด้านการเขียนโค้ดและ implementation และมี Claude ช่วยในด้าน design direction ต่างๆ
 
 ### วิธีใช้งาน
 
