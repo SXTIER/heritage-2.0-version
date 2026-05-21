@@ -1,0 +1,80 @@
+﻿/* ─── NAVIGATION ─── */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 28px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s ease;
+}
+nav.scrolled {
+  background: rgba(7, 7, 7, 0.95);
+  backdrop-filter: blur(20px);
+  padding: 18px 60px;
+  border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+}
+.nav-logo {
+  font-family: "Cinzel", serif;
+  font-size: 13px;
+  letter-spacing: 0.35em;
+  color: var(--gold);
+  text-decoration: none;
+}
+.nav-logo span {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 0.5em;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+.nav-links {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+.nav-links a {
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.3s;
+  position: relative;
+}
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--gold);
+  transition: width 0.4s ease;
+}
+.nav-links a:hover {
+  color: var(--gold);
+}
+.nav-links a:hover::after {
+  width: 100%;
+}
+.nav-cta {
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+  border: 1px solid rgba(201, 168, 76, 0.4);
+  padding: 10px 24px;
+  background: transparent;
+  cursor: none;
+  transition: all 0.4s ease;
+  text-decoration: none;
+}
+.nav-cta:hover {
+  background: var(--gold);
+  color: var(--black);
+}
+

@@ -1,0 +1,182 @@
+﻿/* ─── MODAL ─── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 7, 7, 0.95);
+  z-index: 200;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  padding: 24px;
+}
+.modal-overlay.active {
+  display: flex;
+}
+.modal {
+  background: var(--charcoal);
+  max-width: 900px;
+  width: 90%;
+  max-height: calc(100vh - 48px);
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid rgba(201, 168, 76, 0.15);
+  animation: modalIn 0.5s ease;
+}
+.modal[data-piece="art-deco-bracelet"] {
+  grid-template-columns: 1fr;
+  max-width: 720px;
+  overflow-y: auto;
+}
+.modal[data-piece="art-deco-bracelet"] .modal-image {
+  min-height: 320px;
+  max-height: 360px;
+}
+.modal[data-piece="art-deco-bracelet"] .modal-info {
+  padding: 44px 48px 48px;
+}
+.modal-image {
+  background: var(--warm-gray);
+  min-height: 500px;
+  max-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.modal-image img {
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
+  display: block;
+  object-fit: cover;
+  filter: brightness(0.82) sepia(0.08);
+}
+.modal-image:has(img:not([hidden]))::before,
+.modal-image:has(img:not([hidden]))::after {
+  content: none;
+}
+.modal-image::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgba(201, 168, 76, 0.3);
+  border-radius: 50%;
+  box-shadow: 0 0 80px rgba(201, 168, 76, 0.1);
+}
+.modal-image::after {
+  content: "◆";
+  color: rgba(201, 168, 76, 0.5);
+  font-size: 40px;
+}
+.modal-info {
+  padding: 60px 48px;
+  display: flex;
+  flex-direction: column;
+}
+.modal-era {
+  font-size: 9px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+.modal-name {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 34px;
+  font-weight: 300;
+  color: var(--cream);
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+.modal-divider {
+  height: 1px;
+  background: rgba(201, 168, 76, 0.15);
+  margin-bottom: 32px;
+}
+.modal-desc {
+  font-size: 13px;
+  line-height: 2.2;
+  color: var(--text-muted);
+  margin-bottom: 32px;
+}
+.modal-specs {
+  margin-bottom: 40px;
+}
+.spec-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(201, 168, 76, 0.07);
+}
+.spec-key {
+  font-size: 9px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.spec-val {
+  font-size: 12px;
+  color: var(--cream);
+}
+.modal-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: auto;
+}
+.modal-btn-primary {
+  flex: 1;
+  background: var(--gold);
+  color: var(--black);
+  border: none;
+  padding: 14px;
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  cursor: none;
+  transition: background 0.3s;
+}
+.modal-btn-primary:hover {
+  background: var(--gold-light);
+}
+.modal-btn-ghost {
+  flex: 1;
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  padding: 14px;
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  cursor: none;
+  transition: all 0.3s;
+}
+.modal-btn-ghost:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+.modal-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: transparent;
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  color: var(--text-muted);
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: none;
+  font-size: 16px;
+  transition: all 0.3s;
+  z-index: 10;
+}
+.modal-close:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+

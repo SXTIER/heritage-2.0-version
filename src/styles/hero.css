@@ -1,0 +1,198 @@
+﻿/* ─── HERO ─── */
+#hero {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(7, 7, 7, 0.9) 0%,
+      rgba(14, 11, 8, 0.82) 40%,
+      rgba(7, 7, 7, 0.86) 100%
+    ),
+    radial-gradient(
+      ellipse at 70% 50%,
+      rgba(201, 168, 76, 0.12) 0%,
+      transparent 60%
+    ),
+    url("/images/Hero.jpeg") center/cover no-repeat;
+}
+.hero-texture {
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Ccircle cx='1' cy='1' r='0.5' fill='rgba(201,168,76,0.08)'/%3E%3C/svg%3E");
+  opacity: 0.6;
+}
+.hero-line-left {
+  position: absolute;
+  left: 60px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(201, 168, 76, 0.3) 30%,
+    rgba(201, 168, 76, 0.3) 70%,
+    transparent
+  );
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 0 60px 0 100px;
+  max-width: 750px;
+}
+.hero-eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  opacity: 0;
+  animation: fadeUp 1s 0.3s forwards;
+}
+.hero-eyebrow::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: var(--gold);
+}
+.hero-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(56px, 7vw, 96px);
+  font-weight: 300;
+  line-height: 1;
+  color: var(--cream);
+  margin-bottom: 32px;
+  opacity: 0;
+  animation: fadeUp 1s 0.5s forwards;
+}
+.hero-title em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+.hero-sub {
+  font-size: 13px;
+  letter-spacing: 0.15em;
+  line-height: 2;
+  color: rgba(245, 239, 230, 0.78);
+  max-width: 470px;
+  margin-bottom: 56px;
+  opacity: 0;
+  animation: fadeUp 1s 0.7s forwards;
+  text-shadow: 0 1px 18px rgba(0, 0, 0, 0.72);
+}
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  opacity: 0;
+  animation: fadeUp 1s 0.9s forwards;
+}
+.btn-primary {
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--black);
+  background: var(--gold);
+  padding: 16px 40px;
+  border: none;
+  cursor: none;
+  transition: all 0.4s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-primary:hover {
+  background: var(--gold-light);
+  transform: translateY(-2px);
+}
+.btn-ghost {
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgba(245, 239, 230, 0.82);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.7);
+  transition: color 0.3s;
+}
+.btn-ghost::after {
+  content: "→";
+  transition: transform 0.3s;
+}
+.btn-ghost:hover {
+  color: var(--gold);
+}
+.btn-ghost:hover::after {
+  transform: translateX(6px);
+}
+
+.hero-ornament {
+  position: absolute;
+  right: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  animation: fadeIn 2s 1.2s forwards;
+}
+.ornament-ring {
+  width: 420px;
+  height: 420px;
+  border: 1px solid rgba(201, 168, 76, 0.15);
+  border-radius: 50%;
+  position: relative;
+  animation: spin 40s linear infinite;
+}
+.ornament-ring::before {
+  content: "";
+  position: absolute;
+  inset: 20px;
+  border: 1px solid rgba(201, 168, 76, 0.08);
+  border-radius: 50%;
+  animation: spin 30s linear infinite reverse;
+}
+.ornament-ring::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background: var(--gold);
+  border-radius: 50%;
+  box-shadow: 0 0 30px rgba(201, 168, 76, 0.6);
+}
+.hero-scroll {
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+  font-size: 9px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  opacity: 0;
+  animation: fadeIn 1s 1.5s forwards;
+}
+.scroll-line {
+  width: 1px;
+  height: 60px;
+  background: linear-gradient(to bottom, var(--gold), transparent);
+  animation: scrollPulse 2s ease-in-out infinite;
+}

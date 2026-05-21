@@ -1,0 +1,119 @@
+﻿/* ─── INQUIRY ─── */
+#inquiry {
+  padding: 140px 60px;
+  background: var(--charcoal);
+  border-top: 1px solid rgba(201, 168, 76, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
+}
+.inquiry-subtitle {
+  font-size: 13px;
+  line-height: 2;
+  color: var(--text-muted);
+  margin: 24px 0 48px;
+}
+.contact-list {
+  list-style: none;
+}
+.contact-list li {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+}
+.contact-icon {
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(201, 168, 76, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  font-size: 12px;
+  flex-shrink: 0;
+}
+.contact-label {
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.contact-value {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16px;
+  color: var(--cream);
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+.form-label {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  background: rgba(201, 168, 76, 0.03);
+  border: 1px solid rgba(201, 168, 76, 0.15);
+  color: var(--text);
+  padding: 16px 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  outline: none;
+  transition: border-color 0.3s;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  border-color: rgba(201, 168, 76, 0.5);
+  background: rgba(201, 168, 76, 0.05);
+}
+.form-select option {
+  background: var(--charcoal);
+}
+.form-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.form-submit {
+  width: 100%;
+  background: var(--gold);
+  border: none;
+  color: var(--black);
+  padding: 18px;
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  cursor: none;
+  transition: all 0.4s;
+  margin-top: 8px;
+}
+.form-submit:hover {
+  background: var(--gold-light);
+}
+.form-note {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 16px;
+  letter-spacing: 0.1em;
+}
+

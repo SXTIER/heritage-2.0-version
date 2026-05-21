@@ -1,0 +1,100 @@
+﻿/* ─── EVENT / PRIVATE VIEWING ─── */
+#event {
+  padding: 140px 60px;
+  position: relative;
+  overflow: hidden;
+}
+.event-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      ellipse at 50% 0%,
+      rgba(201, 168, 76, 0.06) 0%,
+      transparent 70%
+    ),
+    var(--black);
+}
+.event-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.event-ornament {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+.orn-line {
+  flex: 1;
+  max-width: 80px;
+  height: 1px;
+  background: rgba(201, 168, 76, 0.3);
+}
+.orn-diamond {
+  width: 8px;
+  height: 8px;
+  background: var(--gold);
+  transform: rotate(45deg);
+}
+.event-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(36px, 4vw, 58px);
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--cream);
+  margin-bottom: 24px;
+}
+.event-title em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+.event-text {
+  font-size: 13px;
+  line-height: 2.2;
+  color: var(--text-muted);
+  margin-bottom: 56px;
+}
+.event-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin: 80px 0;
+  border: 1px solid rgba(201, 168, 76, 0.15);
+}
+.event-card {
+  background: var(--charcoal);
+  padding: 48px 36px;
+  text-align: left;
+  border: 1px solid transparent;
+  transition:
+    border-color 0.4s,
+    background 0.4s;
+}
+.event-card:hover {
+  border-color: rgba(201, 168, 76, 0.2);
+  background: var(--warm-gray);
+}
+.event-card-num {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 48px;
+  color: rgba(201, 168, 76, 0.15);
+  line-height: 1;
+  margin-bottom: 24px;
+}
+.event-card-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 22px;
+  color: var(--cream);
+  margin-bottom: 12px;
+}
+.event-card-text {
+  font-size: 12px;
+  line-height: 2;
+  color: var(--text-muted);
+}
+

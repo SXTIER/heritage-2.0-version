@@ -1,0 +1,26 @@
+﻿/* ─── MARQUEE ─── */
+.marquee-wrap {
+  padding: 24px 0;
+  background: var(--charcoal);
+  border-top: 1px solid rgba(201, 168, 76, 0.15);
+  border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+  overflow: hidden;
+}
+.marquee-track {
+  display: flex;
+  gap: 0;
+  animation: marquee 25s linear infinite;
+  width: max-content;
+}
+.marquee-item {
+  font-size: 9px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  white-space: nowrap;
+  padding: 0 48px;
+}
+.marquee-item span {
+  color: var(--gold);
+}
+
