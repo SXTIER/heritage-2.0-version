@@ -29,13 +29,6 @@
   max-width: 720px;
   overflow-y: auto;
 }
-.modal[data-piece="art-deco-bracelet"] .modal-image {
-  min-height: 320px;
-  max-height: 360px;
-}
-.modal[data-piece="art-deco-bracelet"] .modal-info {
-  padding: 44px 48px 48px;
-}
 .modal-image {
   background: var(--warm-gray);
   min-height: 500px;
@@ -45,6 +38,10 @@
   justify-content: center;
   position: relative;
   overflow: hidden;
+}
+.modal[data-piece="art-deco-bracelet"] .modal-image {
+  min-height: 320px;
+  max-height: 360px;
 }
 .modal-image img {
   width: 100%;
@@ -76,6 +73,9 @@
   padding: 60px 48px;
   display: flex;
   flex-direction: column;
+}
+.modal[data-piece="art-deco-bracelet"] .modal-info {
+  padding: 44px 48px 48px;
 }
 .modal-era {
   font-size: 9px;
