@@ -215,7 +215,11 @@ const pieces = {
     name: 'Pearl Brooch',
     image: '/images/collections/Edwardian.jpeg',
     imageAlt: 'Pearl Brooch',
-    desc: "A magnificent Edwardian bracelet of extraordinary breadth and brilliance, set throughout with old European cut diamonds of exceptional size and whiteness. The construction — so fine and so supple that it drapes at the wrist as though woven from light — represents the very pinnacle of the Edwardian jeweller's art, a period in which platinum and the knife- wire technique were used together for the first and last time in history with such consummate mastery.Each of the principal diamonds is bezel- set at the intersection of the design, allowing the stones to move freely and catch the light from every angle, while the surrounding brilliants trace their garland paths with a lacy precision that no modern hand could replicate.Presented in its original fitted case, the bracelet retains the quiet dignity of a piece that has passed through time untouched — a rare and singular survivor of one of the greatest eras in the history of European jewellery.",
+    desc: `A magnificent Edwardian bracelet of extraordinary breadth and brilliance, set throughout with old European cut diamonds of exceptional size and whiteness. 
+    
+    The construction — so fine and so supple that it drapes at the wrist as though woven from light — represents the very pinnacle of the Edwardian jeweller's art, a period in which platinum and the knife- wire technique were used together for the first and last time in history with such consummate mastery.
+    
+    Each of the principal diamonds is bezel- set at the intersection of the design, allowing the stones to move freely and catch the light from every angle, while the surrounding brilliants trace their garland paths with a lacy precision that no modern hand could replicate.Presented in its original fitted case, the bracelet retains the quiet dignity of a piece that has passed through time untouched — a rare and singular survivor of one of the greatest eras in the history of European jewellery.`,
     specs: [['Period', 'Edwardian, 1901-1975'], ['Origin', 'England'], ['Metal', '18k Gold'], ['Stones', 'Old Cut Diamonds, Natural Pearls'], ['Condition', 'Excellent']]
   },
   // Card 4

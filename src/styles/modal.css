@@ -90,6 +90,7 @@
   line-height: 2.2;
   color: var(--text-muted);
   margin-bottom: 32px;
+  white-space: pre-line;
 }
 .modal-specs {
   margin-bottom: 40px;
