@@ -80,7 +80,12 @@
 }
 .hero-title em {
   font-style: italic;
-  color: var(--gold-light);
+  color: #f0e082;
+  background: var(--chromatic-gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 22px rgba(90, 60, 16, 0.42);
 }
 .hero-sub {
   font-size: 13px;

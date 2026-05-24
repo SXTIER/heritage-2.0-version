@@ -2,6 +2,13 @@
   --gold: #c9a84c;
   --gold-light: #e2c97e;
   --gold-pale: #f5e9c8;
+  --chromatic-gold: linear-gradient(
+    135deg,
+    #a9792b 0%,
+    #85681c 16%,
+    #f0e082 52%,
+    #897b29 100%
+  );
   --black: #070707;
   --deep: #0e0c0a;
   --charcoal: #1a1714;

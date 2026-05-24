@@ -24,7 +24,12 @@
 }
 .section-title em {
   font-style: italic;
-  color: var(--gold-light);
+  color: #f0e082;
+  background: var(--chromatic-gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 18px rgba(90, 60, 16, 0.34);
 }
 .section-link {
   font-size: 9px;
