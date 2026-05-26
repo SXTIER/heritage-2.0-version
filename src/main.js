@@ -51,10 +51,10 @@ const eras = [
   },
   {
     year: '1871-1914',
-    name: 'Belle รpoque',
+    name: 'Belle Epoque',
     body: 'Ultra elegant, ribbon, floral',
     image: 'https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=900&q=80',
-    alt: 'Belle รpoque Jewelry'
+    alt: 'Belle Epoque Jewelry'
   },
   {
     year: '1890-1910',
@@ -243,7 +243,7 @@ const pieces = {
     name: 'Old Cut Diamond Tiara',
     image: '/images/collections/old-cut-diamond-tiara.jpeg',
     imageAlt: 'old-cut-diamond-tiara',
-    desc: 'A magnificentย  of Victorian jewellery craftsmanship. The central oldย  cut diamond and pear shaped diamond, estimated at 8 carats, is surrounded by a cluster of single-cut diamonds set in 18k gold.',
+    desc: 'A magnificent  of Victorian jewellery craftsmanship. The central old cut diamond and pear shaped diamond, estimated at 8 carats, is surrounded by a cluster of single-cut diamonds set in 18k gold.',
     specs: [['Period', 'Victorian, 1837-1901'], ['Origin', 'London, England'], ['Metal', '18k Gold'], ['Stones', 'Old Mine Cut Diamond, Old cut Diamonds'], ['Condition', 'Excellent, original patina']]
   },
   // Card 2
@@ -252,7 +252,7 @@ const pieces = {
     name: 'Ruby & Diamond\nBracelet',
     image: '/images/collections/Ruby-and-Diamond-Bracelet.jpeg',
     imageAlt: 'Ruby and Diamond Bracelet',
-    desc: ' A stunning Art Deco line bracelet featuring alternating old European cut diamonds and burma ruby, set in 18k gold withย  detailing. The geometric precision and characteristic stepped design are hallmarks of the finest Parisian jewellery of the 1920s.',
+    desc: ' A stunning Art Deco line bracelet featuring alternating old European cut diamonds and burma ruby, set in 18k gold with detailing. The geometric precision and characteristic stepped design are hallmarks of the finest Parisian jewellery of the 1920s.',
     specs: [['Period', 'Art Deco, 1920-1945'], ['Origin', 'Paris, France'], ['Metal', '18k Gold'], ['Stones', 'Old Cut Diamonds,Burmese Ruby'], ['Length', '18cm']]
   },
   // Card 3
@@ -265,7 +265,7 @@ const pieces = {
     
     The construction — so fine and so supple that it drapes at the wrist as though woven from light — represents the very pinnacle of the Edwardian jeweller's art, a period in which platinum and the knife- wire technique were used together for the first and last time in history with such consummate mastery.
     
-    Each of the principal diamonds is bezel- set at the intersection of the design, allowing the stones to move freely and catch the light from every angle, while the surrounding brilliants trace their garland paths with a lacy precision that no modern hand could replicate.Presented in its original fitted case, the bracelet retains the quiet dignity of a piece that has passed through time untouched โ€”ย a rare and singular survivor of one of the greatest eras in the history of European jewellery.`,
+    Each of the principal diamonds is bezel- set at the intersection of the design, allowing the stones to move freely and catch the light from every angle, while the surrounding brilliants trace their garland paths with a lacy precision that no modern hand could replicate.Presented in its original fitted case, the bracelet retains the quiet dignity of a piece that has passed through time untouched — a rare and singular survivor of one of the greatest eras in the history of European jewellery.`,
     specs: [['Period', 'Edwardian, 1901-1915'], ['Origin', 'England'], ['Metal', '18k Gold'], ['Stones', 'Old European Cut Diamonds'], ['Condition', 'Excellent']]
   },
   // Card 4
@@ -274,7 +274,7 @@ const pieces = {
     name: 'Belle Magnolia Earring',
     image: '/images/collections/Belle-epoque-3.jpeg',
     imageAlt: 'Belle Magnolia Earring',
-    desc: 'A supremely rare and theatrical pair of French chandelier earrings of exceptional scale and artistry, conceived in the form of the magnolia in full bloom โ€” that most fleeting and romantic of flowers โ€” and executed with a bravura that places them among the most ambitious jewels of their age.',
+    desc: 'A supremely rare and theatrical pair of French chandelier earrings of exceptional scale and artistry, conceived in the form of the magnolia in full bloom โ€” that most fleeting and romantic of flowers — and executed with a bravura that places them among the most ambitious jewels of their age.',
     specs: [['Period', 'Belle Epoque, 1871-1914'], ['Origin', 'France'], ['Metal', '18ct Gold'], ['Total Diamond Weight', 'Approx. 9 carats'], ['Diamonds', 'Excellent']]
   },
   // Card 5
