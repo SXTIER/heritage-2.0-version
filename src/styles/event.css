@@ -29,6 +29,12 @@
   justify-content: center;
   margin-bottom: 48px;
 }
+.event-ornament-label {
+  font-size: 9px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
 .orn-line {
   flex: 1;
   max-width: 80px;

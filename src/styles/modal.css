@@ -13,6 +13,9 @@
 .modal-overlay.active {
   display: flex;
 }
+.modal-shell {
+  position: relative;
+}
 .modal {
   background: var(--charcoal);
   max-width: 720px;
@@ -168,4 +171,3 @@
   border-color: var(--gold);
   color: var(--gold);
 }
-

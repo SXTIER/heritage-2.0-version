@@ -9,6 +9,7 @@
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Cinzel:wght@400;500&family=Raleway:wght@200;300;400&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./src/style.css" />
 </head>
 
@@ -18,7 +19,7 @@
 
   <!-- NAVIGATION -->
   <nav id="navbar">
-    <a href="#" class="nav-logo">
+    <a href="#hero" class="nav-logo">
       HERITAGE
       <span>FINEART JEWELRY</span>
     </a>
@@ -91,14 +92,14 @@
     </div>
     <div class="about-content reveal">
       <p class="section-label">— Our Provenance</p>
-      <h2 class="section-title" style="margin-bottom: 32px">
+      <h2 class="section-title about-title">
         The Art of <em>Time</em>
       </h2>
       <blockquote class="about-quote">Made to be Worn.</blockquote>
       <p class="about-text">
         Heritage metuculously curates antique and estate jewellery or the
-        finest distinction from aross Europe every piece rigorously
-        aunthenticated with the utmost care and expertise.
+        finest distinction from aros Europe every piece rigorously
+        authenticated with the utmost care and expertise.
         <br /><br />
         Heritage FineArtJewelry—Thailand
       </p>
@@ -138,12 +139,7 @@
       <div class="event-ornament">
         <div class="orn-line"></div>
         <div class="orn-diamond"></div>
-        <div style="
-              font-size: 9px;
-              letter-spacing: 0.4em;
-              text-transform: uppercase;
-              color: var(--gold);
-            ">
+        <div class="event-ornament-label">
           Private Viewings
         </div>
         <div class="orn-diamond"></div>
@@ -229,20 +225,36 @@
     </div>
 
     <div class="inquiry-form reveal">
-      <p class="section-label" style="margin-bottom: 32px">— Enquiry Form</p>
+      <p class="section-label inquiry-form-label">— Enquiry Form</p>
       <div class="form-row">
         <div class="form-group">
           <label class="form-label">First Name</label>
-          <input type="text" class="form-input" id="first-name" name="firstName" placeholder="Your name" />
+          <input type="text" class="form-input" id="first-name" name="firstName" placeholder="eg: Somchai" />
         </div>
         <div class="form-group">
           <label class="form-label">Last Name</label>
-          <input type="text" class="form-input" id="last-name" name="lastName" placeholder="Family name" />
+          <input type="text" class="form-input" id="last-name" name="lastName" placeholder="eg: Jaidee" />
         </div>
       </div>
-      <div class="form-group">
-        <label class="form-label">Contact (Line / Phone / Email)</label>
-        <input type="text" class="form-input" id="contact-method" name="contact" placeholder="Preferred contact method" />
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Phone</label>
+          <input type="tel" class="form-input" id="phone" name="phone" placeholder="eg: 081-234-5678" required pattern="^[+()0-9\\s-]{8,}$" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-input" id="email" name="email" placeholder="eg: name@example.com" required />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Line (Optional)</label>
+          <input type="text" class="form-input" id="line-id" name="line" placeholder="eg: @heritage88" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Other (Optional)</label>
+          <input type="text" class="form-input" id="other-contact" name="other" placeholder="eg: WhatsApp (081-234-5678)" />
+        </div>
       </div>
       <div class="form-group">
         <label class="form-label">I am interested in</label>
@@ -269,7 +281,7 @@
       <div class="form-group">
         <label class="form-label">Message</label>
         <textarea class="form-textarea" id="message" name="message"
-          placeholder="Tell us what you are looking for, or any questions you have..."></textarea>
+          placeholder="eg: I am interested in the Ruby & Diamond Bracelet and would like to arrange a private viewing."></textarea>
       </div>
       <button class="form-submit" id="inquiry-submit">
         Submit Private Enquiry
@@ -296,29 +308,29 @@
       <div>
         <div class="footer-col-title">Collection</div>
         <ul class="footer-links">
-          <li><a href="#">Victorian</a></li>
-          <li><a href="#">Belle Époque</a></li>
-          <li><a href="#">Art Nouveau</a></li>
-          <li><a href="#">Edwardian</a></li>
-          <li><a href="#">Art Deco</a></li>
+          <li><a href="#collection">Victorian</a></li>
+          <li><a href="#collection">Belle Époque</a></li>
+          <li><a href="#collection">Art Nouveau</a></li>
+          <li><a href="#collection">Edwardian</a></li>
+          <li><a href="#collection">Art Deco</a></li>
         </ul>
       </div>
       <div>
         <div class="footer-col-title">Services</div>
         <ul class="footer-links">
-          <li><a href="#">Private Viewing</a></li>
-          <li><a href="#">Bespoke Search</a></li>
-          <li><a href="#">Authentication</a></li>
+          <li><a href="#event">Private Viewing</a></li>
+          <li><a href="#inquiry">Bespoke Search</a></li>
+          <li><a href="#inquiry">Authentication</a></li>
         </ul>
       </div>
       <div>
         <div class="footer-col-title">Connect</div>
         <ul class="footer-links">
-          <li><a href="https://www.instagram.com/heritage.fineartjewelry/" target="_blank">Instagram</a></li>
+          <li><a href="https://www.instagram.com/heritage.fineartjewelry/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
           <li><a href="https://www.facebook.com/p/Heritage-Fineart-Jewelry-100077723916607/"
-              target="_blank">Facebook</a></li>
-          <li><a href="https://lin.ee/WRCwUof" target="_blank">Line OA</a></li>
-          <li><a href="#">Private Enquiry</a></li>
+              target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a href="https://lin.ee/WRCwUof" target="_blank" rel="noopener noreferrer">Line OA</a></li>
+          <li><a href="#inquiry">Private Enquiry</a></li>
         </ul>
       </div>
     </div>
@@ -327,11 +339,11 @@
         © 2025 Heritage FineArt Jewelry. All rights reserved.
       </div>
       <div class="footer-social">
-        <a href="https://www.instagram.com/heritage.fineartjewelry/" target="_blank" class="social-btn"
+        <a href="https://www.instagram.com/heritage.fineartjewelry/" target="_blank" rel="noopener noreferrer" class="social-btn"
           aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.facebook.com/p/Heritage-Fineart-Jewelry-100077723916607/" target="_blank"
+        <a href="https://www.facebook.com/p/Heritage-Fineart-Jewelry-100077723916607/" target="_blank" rel="noopener noreferrer"
           class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://lin.ee/WRCwUof" target="_blank" class="social-btn" aria-label="Line"><i
+        <a href="https://lin.ee/WRCwUof" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Line"><i
             class="fa-brands fa-line"></i></a>
       </div>
     </div>
@@ -339,7 +351,7 @@
 
   <!-- MODAL -->
   <div class="modal-overlay" id="modal">
-    <div style="position: relative">
+    <div class="modal-shell">
       <button class="modal-close" id="modal-close">✕</button>
       <div class="modal">
         <div class="modal-image">

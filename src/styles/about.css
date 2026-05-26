@@ -93,6 +93,9 @@
   font-family: "Cormorant Garamond", serif;
   line-height: 1;
 }
+.about-title {
+  margin-bottom: 32px;
+}
 .about-text {
   font-size: 13px;
   line-height: 2.2;
@@ -120,4 +123,3 @@
   color: var(--text-muted);
   margin-top: 8px;
 }
-
