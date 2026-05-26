@@ -51,10 +51,10 @@ const eras = [
   },
   {
     year: '1871-1914',
-    name: 'Belle Epoque',
+    name: 'Belle Époque',
     body: 'Ultra elegant, ribbon, floral',
     image: 'https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=900&q=80',
-    alt: 'Belle Epoque Jewelry'
+    alt: 'Belle Époque Jewelry'
   },
   {
     year: '1890-1910',
@@ -104,7 +104,7 @@ const products = [
   },
   {
     id: 'belle-necklace',
-    era: 'Belle Epoque • 1871-1914',
+    era: 'Belle Époque • 1871-1914',
     name: 'Belle Magnolia Earring',
     image: '/images/collections/Belle-epoque-3.jpeg',
     alt: 'Belle Magnolia Earring'
@@ -270,12 +270,12 @@ const pieces = {
   },
   // Card 4
   'belle-necklace': {
-    era: 'Belle Epoque • 1871-1914',
+    era: 'Belle Époque • 1871-1914',
     name: 'Belle Magnolia Earring',
     image: '/images/collections/Belle-epoque-3.jpeg',
     imageAlt: 'Belle Magnolia Earring',
     desc: 'A supremely rare and theatrical pair of French chandelier earrings of exceptional scale and artistry, conceived in the form of the magnolia in full bloom โ€” that most fleeting and romantic of flowers — and executed with a bravura that places them among the most ambitious jewels of their age.',
-    specs: [['Period', 'Belle Epoque, 1871-1914'], ['Origin', 'France'], ['Metal', '18ct Gold'], ['Total Diamond Weight', 'Approx. 9 carats'], ['Diamonds', 'Excellent']]
+    specs: [['Period', 'Belle Époque, 1871-1914'], ['Origin', 'France'], ['Metal', '18ct Gold'], ['Total Diamond Weight', 'Approx. 9 carats'], ['Diamonds', 'Excellent']]
   },
   // Card 5
   'art-nouveau-earrings': {
