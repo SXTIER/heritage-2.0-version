@@ -81,6 +81,10 @@ footer {
   text-decoration: none;
   transition: all 0.3s;
 }
+.social-btn i {
+  font-size: 17px;
+  line-height: 1;
+}
 .social-btn:hover {
   border-color: var(--gold);
   color: var(--gold);

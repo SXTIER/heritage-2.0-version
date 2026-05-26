@@ -12,6 +12,8 @@ dist
 dist-ssr
 heritage-testing-UI-old/
 *.local
+google-apps-script-email-only.js
+public/logo/
 
 # Editor directories and files
 .vscode/*
