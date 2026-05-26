@@ -83,38 +83,38 @@ const eras = [
 const products = [
   {
     id: 'victorian-ring',
-    era: 'Victorian Era ยท 1837-1901',
+    era: 'Victorian Era • 1837-1901',
     name: 'Old Cut Diamond Tiara',
     image: '/images/collections/old-cut-diamond-tiara.jpeg',
     alt: 'Old Cut Diamond Tiara'
   },
   {
     id: 'art-deco-bracelet',
-    era: 'Art Deco ยท 1920-1945',
+    era: 'Art Deco • 1920-1945',
     name: 'Ruby & Diamond Bracelet',
     image: '/images/collections/Ruby-and-Diamond-Bracelet.jpeg',
     alt: 'Ruby & Diamond Bracelet'
   },
   {
     id: 'edwardian-brooch',
-    era: 'Edwardian ยท 1901-1915',
+    era: 'Edwardian • 1901-1915',
     name: 'Old European Cut Choker and Bracelet',
     image: '/images/collections/Edwardian.jpeg',
     alt: 'Old European Cut Choker and Braceleth'
   },
   {
     id: 'belle-necklace',
-    era: 'Belle รpoque ยท 1871-1914',
+    era: 'Belle Epoque • 1871-1914',
     name: 'Belle Magnolia Earring',
     image: '/images/collections/Belle-epoque-3.jpeg',
     alt: 'Belle Magnolia Earring'
   },
   {
     id: 'art-nouveau-earrings',
-    era: 'Art Nouveau ยท c.1895',
-    name: 'Emerald Drop Earrings',
+    era: 'Art Nouveau • 1890-1910',
+    name: 'An Art Nouveau Style Brooch',
     image: '/images/collections/Diamond-Cluster-Old.jpeg',
-    alt: 'Emerald Drop Earrings'
+    alt: 'An Art Nouveau Style Brooch'
   }
 ];
 
@@ -239,7 +239,7 @@ reveals.forEach(r => observer.observe(r));
 const pieces = {
   // Card 1
   'victorian-ring': {
-    era: 'Victorian Era ยท 1837-1901',
+    era: 'Victorian Era • 1837-1901',
     name: 'Old Cut Diamond Tiara',
     image: '/images/collections/old-cut-diamond-tiara.jpeg',
     imageAlt: 'old-cut-diamond-tiara',
@@ -248,7 +248,7 @@ const pieces = {
   },
   // Card 2
   'art-deco-bracelet': {
-    era: 'Art Deco ยท 1920-1945',
+    era: 'Art Deco • 1920-1945',
     name: 'Ruby & Diamond\nBracelet',
     image: '/images/collections/Ruby-and-Diamond-Bracelet.jpeg',
     imageAlt: 'Ruby and Diamond Bracelet',
@@ -257,33 +257,33 @@ const pieces = {
   },
   // Card 3
   'edwardian-brooch': {
-    era: 'Edwardian ยท 1901-1915',
+    era: 'Edwardian • 1901-1915',
     name: 'Old European Cut Choker and Bracelet',
     image: '/images/collections/Edwardian.jpeg',
     imageAlt: 'Old European Cut Choker and Bracelet',
     desc: `A magnificent Edwardian bracelet of extraordinary breadth and brilliance, set throughout with old European cut diamonds of exceptional size and whiteness. 
     
-    The construction โ€” so fine and so supple that it drapes at the wrist as though woven from light โ€” represents the very pinnacle of the Edwardian jeweller's art, a period in which platinum and the knife- wire technique were used together for the first and last time in history with such consummate mastery.
+    The construction — so fine and so supple that it drapes at the wrist as though woven from light — represents the very pinnacle of the Edwardian jeweller's art, a period in which platinum and the knife- wire technique were used together for the first and last time in history with such consummate mastery.
     
     Each of the principal diamonds is bezel- set at the intersection of the design, allowing the stones to move freely and catch the light from every angle, while the surrounding brilliants trace their garland paths with a lacy precision that no modern hand could replicate.Presented in its original fitted case, the bracelet retains the quiet dignity of a piece that has passed through time untouched โ€”ย a rare and singular survivor of one of the greatest eras in the history of European jewellery.`,
     specs: [['Period', 'Edwardian, 1901-1915'], ['Origin', 'England'], ['Metal', '18k Gold'], ['Stones', 'Old European Cut Diamonds'], ['Condition', 'Excellent']]
   },
   // Card 4
   'belle-necklace': {
-    era: 'Belle รpoque ยท 1871-1914',
+    era: 'Belle Epoque • 1871-1914',
     name: 'Belle Magnolia Earring',
     image: '/images/collections/Belle-epoque-3.jpeg',
     imageAlt: 'Belle Magnolia Earring',
     desc: 'A supremely rare and theatrical pair of French chandelier earrings of exceptional scale and artistry, conceived in the form of the magnolia in full bloom โ€” that most fleeting and romantic of flowers โ€” and executed with a bravura that places them among the most ambitious jewels of their age.',
-    specs: [['Period', 'Belle รpoque, 1871-1914'], ['Origin', 'France'], ['Metal', '18ct Gold'], ['Total Diamond Weight', 'Approx. 9 carats'], ['Diamonds', 'Excellent']]
+    specs: [['Period', 'Belle Epoque, 1871-1914'], ['Origin', 'France'], ['Metal', '18ct Gold'], ['Total Diamond Weight', 'Approx. 9 carats'], ['Diamonds', 'Excellent']]
   },
   // Card 5
   'art-nouveau-earrings': {
-    era: 'Art Nouveau ยท 1890-1910',
+    era: 'Art Nouveau • 1890-1910',
     name: 'An Art Nouveau Style Brooch',
     image: '/images/collections/Diamond-Cluster-Old.jpeg',
     imageAlt: 'An Art Nouveau Style Brooch',
-    desc: 'this brooch captures the Art Nouveau movement at its most naturalistic โ€” the moment when jewellery stopped imitating nature and became it. The rose-cut diamonds at each bloom, set in silver against the warmth of the gold beneath, carry the particular softness that only stones of this age and cut possess. A piece of quiet, exceptional beauty, presented in its original velvet case.',
+    desc: 'this brooch captures the Art Nouveau movement at its most naturalistic — the moment when jewellery stopped imitating nature and became it. The rose-cut diamonds at each bloom, set in silver against the warmth of the gold beneath, carry the particular softness that only stones of this age and cut possess. A piece of quiet, exceptional beauty, presented in its original velvet case.',
     specs: [['Period', 'Art Nouveau, 1890-1910'], ['Origin', 'Belgium'], ['Metal', '18K Gold'], ['Stones', 'Old Cut Diamonds'], ['Condition', 'Excellent']]
   }
 };
